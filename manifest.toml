@@ -13,7 +13,7 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = " GPL-3.0"
-website = "https://example.com"
+website = "https://www.systemli.org/en/service/ticker/"
 demo = "https://demo.example.com"
 code = "https://github.com/systemli/ticker"
 
@@ -43,9 +43,14 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
+    amd64.url = "https://github.com/systemli/ticker/releases/download/3.0.1/ticker_3.0.1_linux_amd64.tar.gz"
+    amd64.sha256 = "10fefb60a4107869b4e93081b3328e84e5e130234262e1b144c9b3667d5e5893"
+
+    arm64.url = "https://github.com/systemli/ticker/releases/download/3.0.1/ticker_3.0.1_linux_arm64.tar.gz"
+    arm64.sha256 = "10fefb60a4107869b4e93081b3328e84e5e130234262e1b144c9b3667d5e5893"
+
     url = "https://github.com/systemli/ticker/releases/download/3.0.1/ticker_3.0.1_linux_amd64.tar.gz"
     sha256 = "10fefb60a4107869b4e93081b3328e84e5e130234262e1b144c9b3667d5e5893"
-
     autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
