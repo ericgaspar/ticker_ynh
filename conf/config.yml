@@ -4,8 +4,8 @@ listen: "127.0.0.1:__PORT__"
 log_level: "error"
 # configuration for the database
 database:
-    type: "postgres" # postgres, mysql, sqlite
-    dsn: postgres: "host=localhost port=5432 user=__DB_USER__ dbname=__DB_NAME__ password=__DB_PWD__ sslmode=disable"
+  type: "sqlite" # postgres, mysql, sqlite
+  dsn: "ticker.db" # postgres: "host=localhost port=5432 user=ticker dbname=ticker password=ticker sslmode=disable"
 # secret used for JSON Web Tokens
 secret: "<your special little secret> (make it LOOOONG!)"
 # telegram configuration
