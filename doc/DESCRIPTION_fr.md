@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Le ticker est un outil de communication relié aux réseaux sociaux et aux messageries instantanées qui permet de publier des actualités et des images. Le contenu peut également être publié sur un site web existant ou sur un domaine spécialement créé à cet effet.

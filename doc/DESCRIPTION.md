@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+The ticker is a communication tool with social media and messenger connections for publishing news and images. The content can also be published on an existing website or on a domain set up specifically for this purpose.
