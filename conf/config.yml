@@ -1,0 +1,17 @@
+# listen binds ticker to specific address and port
+listen: "127.0.0.1:__PORT__"
+# log_level sets log level for logrus
+log_level: "error"
+# configuration for the database
+database:
+    type: "sqlite" # postgres, mysql, sqlite
+    dsn: "ticker.db" # postgres: "host=localhost port=5432 user=ticker dbname=ticker password=ticker sslmode=disable"
+# secret used for JSON Web Tokens
+secret: "<your special little secret> (make it LOOOONG!)"
+# listen port for prometheus metrics exporter
+metrics_listen: ":8181"
+upload:
+    # path where to store the uploaded files
+    path: "__DATA_DIR__"
+    # base url for uploaded assets
+    url: "https://__DOMAIN__"
