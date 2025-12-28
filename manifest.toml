@@ -43,15 +43,12 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
+    in_subdir = false
     amd64.url = "https://github.com/systemli/ticker/releases/download/3.0.1/ticker_3.0.1_linux_amd64.tar.gz"
     amd64.sha256 = "10fefb60a4107869b4e93081b3328e84e5e130234262e1b144c9b3667d5e5893"
 
     arm64.url = "https://github.com/systemli/ticker/releases/download/3.0.1/ticker_3.0.1_linux_arm64.tar.gz"
-    arm64.sha256 = "10fefb60a4107869b4e93081b3328e84e5e130234262e1b144c9b3667d5e5893"
-
-    url = "https://github.com/systemli/ticker/releases/download/3.0.1/ticker_3.0.1_linux_amd64.tar.gz"
-    sha256 = "10fefb60a4107869b4e93081b3328e84e5e130234262e1b144c9b3667d5e5893"
-    autoupdate.strategy = "latest_github_release"
+    arm64.sha256 = "cee80abf189f48f38c7c443ba3f35f94735e7ca507e8f934b1fefef1e2b18588"
 
     [resources.system_user]
 
