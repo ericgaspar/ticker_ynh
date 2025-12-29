@@ -43,7 +43,6 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    in_subdir = false
     url = "https://github.com/systemli/ticker/archive/refs/tags/3.0.1.tar.gz"
     sha256 = "e40d62bb2198e2a7f3655cb6efe3aabf4993a47a52df9de7cb8126191948b84b"
 
