@@ -46,7 +46,7 @@ yunohost service add "$app" --description="A short description of the app" --log
 #=================================================
 ynh_script_progression "Building $app..."
 
-pushd $install_dir/build/
+pushd $install_dir/
 	ynh_hide_warnings ynh_exec_as_app go build -o $install_dir/ticker
 popd
 
